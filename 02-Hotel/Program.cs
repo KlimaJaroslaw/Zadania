@@ -22,16 +22,15 @@ namespace _02_Hotel
                 Console.Write("Podaj ilość nocy: ");
                 noce = Convert.ToInt32(Console.ReadLine());
 
-                if (wiek <= 18)
-                {
+                if (wiek > 0 && wiek <= 18)
                     wiek = 1;
-                }
-                else if (wiek >= 19 && wiek <= 64)
-                {
+                else if (wiek > 18 && wiek < 65)
                     wiek = 2;
-                }
-                else
+                else if (wiek > 64)
                     wiek = 3;
+                else
+                    wiek = 4;
+
 
                 Obliczenia(wiek, noce, out cena);
 
@@ -63,9 +62,9 @@ namespace _02_Hotel
 
             if (a == 1)
             {
-                return c = b * 100;
-            } 
-            else
+                 c = b * 100;
+            }
+            else if (a == 2 || a == 3)
             {
                 switch (x)
                 {
@@ -83,6 +82,8 @@ namespace _02_Hotel
                         break;
                 }
             }
+            else
+                c = 0.00;
             
             if  (a==3)
             {
