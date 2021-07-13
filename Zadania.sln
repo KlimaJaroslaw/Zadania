@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-LiczbyPierwsze", "03-Lic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-LiczbyRzymskieArabskie", "05-LiczbyRzymskieArabskie\05-LiczbyRzymskieArabskie.csproj", "{2D3A9F2E-3B08-405B-A617-454ECBEB2C43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szanty", "ConsoleApp1\Szanty.csproj", "{8792E7F5-64D7-4734-B636-C8200D1E1D98}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{2D3A9F2E-3B08-405B-A617-454ECBEB2C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D3A9F2E-3B08-405B-A617-454ECBEB2C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D3A9F2E-3B08-405B-A617-454ECBEB2C43}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8792E7F5-64D7-4734-B636-C8200D1E1D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8792E7F5-64D7-4734-B636-C8200D1E1D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8792E7F5-64D7-4734-B636-C8200D1E1D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8792E7F5-64D7-4734-B636-C8200D1E1D98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
