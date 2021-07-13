@@ -63,7 +63,7 @@ namespace _01_Kalkulator
                 Console.WriteLine();
                 
             }
-            Console.ReadKey();
+            //Console.ReadKey();
 
             
 
