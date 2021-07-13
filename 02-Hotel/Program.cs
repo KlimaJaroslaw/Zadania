@@ -31,7 +31,7 @@ namespace _02_Hotel
                 else
                     wiek = 4;
 
-
+                //
                 Obliczenia(wiek, noce, out cena);
 
                 Console.WriteLine("Należy zapłacić: {0} zł",cena);

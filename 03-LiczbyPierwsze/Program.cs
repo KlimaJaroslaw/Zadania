@@ -22,7 +22,7 @@ namespace _03_LiczbyPierwsze
             int licznik = 0;
             LP(out liczba);
             Console.WriteLine();
-            
+            //
                 for (int i = 2; i < liczba; i++)
                 {
                     if (liczba % i == 0)

@@ -14,7 +14,7 @@ namespace _01_Kalkulator
             double arg2 = 0.00;
             double result = 0.00;
             string op = "";           
-
+            //
             while (true)
             {
                 Console.Write("Podaj artgument #1: ");

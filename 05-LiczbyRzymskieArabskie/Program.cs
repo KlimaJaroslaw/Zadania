@@ -60,7 +60,7 @@ namespace _05_LiczbyRzymskieArabskie
 
             Console.Write("Podaj liczbę od 1 od 3999: ");
             do
-            {
+            {//
                 znak = Console.ReadKey(true).KeyChar;
                 
 
