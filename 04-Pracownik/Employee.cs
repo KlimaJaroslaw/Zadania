@@ -8,13 +8,13 @@ namespace _04_Pracownik
 {
     class Employee
     {
-        string imie1;
-        string nazwisko1;
-        double stawka1;
+        string imie1="";
+        string nazwisko1="";
+        double stawka1=0;
         double wyplata1;
         double doWyplaty;
 
-        public Employee(string imie, string nazwisko, double stawka)
+        public Employee(string imie="", string nazwisko="", double stawka=0)
         {
             this.imie1 = imie;
             this.nazwisko1 = nazwisko;
@@ -48,6 +48,8 @@ namespace _04_Pracownik
             Console.WriteLine("wypłata- {0}",this.doWyplaty);
             Console.WriteLine();
         }
+
+        
 
     }
 }

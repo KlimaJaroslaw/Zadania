@@ -66,5 +66,14 @@ namespace _04_Pracownik
             l = Convert.ToDouble(l_str);
             return l;
         }
+        /*
+        Employee new_emp = new Employee();
+
+        private static Employee Test()
+        {
+            Employee new_emp = new Employee();
+            return new_emp;
+        }
+        */
     }
 }
